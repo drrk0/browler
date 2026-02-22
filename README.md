@@ -15,7 +15,7 @@ A simple **Go tool** to extract browser history from popular browsers like **Fir
 
 | Parameter    | Description                                      | Default                       |
 |---------|--------------------------------------------------|-------------------------------|
-| browser | The browser to target (chrome or firefox).      | chrome                        |
+| browser | The browser to target (chrome or firefox).      | firefox                        |
 | time    | How many days of history to go back from today. | 30                            |
 | url     | The remote HTTP(S) URL to receive the CSV file. | http://localhost:8000/upload |
 
@@ -28,3 +28,4 @@ git clone https://github.com/drrk0/browler.git
 cd browler
 
 go build -o browler
+
